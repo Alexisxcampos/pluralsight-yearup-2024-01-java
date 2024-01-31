@@ -5,7 +5,8 @@ public class MathApp
         // Question 1 - find the highest salary
         double bobSalary = 75000.00;
         double garySalary = 95000.00;
-        System.out.println("The highest salary is $" );
+        double highestSalary = Math.max(bobSalary,garySalary);
+        System.out.println("The highest salary is $" + Math.max(bobSalary,garySalary));
         System.out.println();
 
         // Question 2 - find the lowest price
